@@ -25,6 +25,7 @@ app.use((req, res, next) => {
     }
 });
 
+// เรียกใช้งาน router file
 app.listen(port, () => {
     console.log('API Start server at port ' + port + '.');
 })
